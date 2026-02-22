@@ -1,0 +1,15 @@
+name = "cdn-rpnet-cc"
+main = "src/index.py"
+compatibility_date = "2026-02-28"
+compatibility_flags = ["python_workers"]
+workers_dev = false
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+[vars]
+DOMAIN_NAME = "cdn.rpnet.cc"
+SUB_DOMAIN = "@"
+OPTIMIZE_KEY = "o1zrmHAF"
+HW_ZONE_ID = "ff8080829a978801019c84616c8c626f"
+MUSIC_JSON_URL = "https://files.rpnet.cc/cdn.rpnet.cc/data/music.json"
